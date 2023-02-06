@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+input {
+    color: red;
+    width: 80%;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 40px;
+    font: 20px cursive;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Cursive;
+    text-align: center;
+    cursor: default;
+}
+
+::placeholder {
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.content {
+    width: 30rem;
+    height: 45rem;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 2px solid darkgreen;
+    border-radius: 10%;
+}
+
+#btn {
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    color: bisque;
+    opacity: 0.5;
+    background-color: rgb(113, 129, 129);
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 20px;
+    position: absolute;
+    left: 105px;
+}
+
+#btn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: cornsilk;
+}
+
+a:hover {
+    color: black;
+    text-decoration: 5px underline white;
+}
+
+::selection {
+    color: red;
+    background-color: black;
+}

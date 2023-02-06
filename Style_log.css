@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    input{
+    color:grey;
+    width: 80%;
+    padding: 12px 20px; 
+    border: 2px solid black;
+    margin: 10px 40px;
+    }
+    h5{
+        font-size:20px;
+        font-family:Cursive;
+        text-align: center;
+        cursor:default;
+    }
+    ::placeholder {
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 100;
+    }
+    .contont{
+        width:350px;
+        height:400px;
+        position:absolute;
+        top:100px;
+        left:80px;
+        background-color:Aqua;
+        border:5px solid black;
+        border-radius:10%;
+    }
+    #button{
+        width:100px;
+        height:70px;
+        border-radius:25%;
+        
+        font-size:25px;
+        font-family:Cursive;
+        position:absolute;
+        left:90px;
+        padding-top:7px;
+        padding-left:17px;
+    }
+    #button:hover{
+        color:aqua;
+        cursor:pointer;
+    }
+    ::selection{
+        color:red;
+        background-color:black;
+    }
+    .fill{
+        position:absolute;
+        bottom:34px;
+        left:210px;
+        font-family:cursive;
+        color:black;
+        text-decoration:none;
+    }
+    a:hover{
+        font-style:italic;
+        font-weight:bold;
+        text-decoration: 5px underline black;
+    }
+    
